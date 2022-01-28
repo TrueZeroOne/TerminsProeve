@@ -16,5 +16,12 @@ namespace TerminsProeve
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Bungus";
+            label1.Location = new Point(-30, 50);
+            label1.Font = new Font(label1.Font.FontFamily, 170);
+        }
     }
 }
