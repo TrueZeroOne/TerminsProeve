@@ -8,3 +8,13 @@ C:\Users\emiir\Documents\GitHub\TerminsProeve\TerminsProeve\TerminsProeve\obj\De
 C:\Users\emiir\Documents\GitHub\TerminsProeve\TerminsProeve\TerminsProeve\obj\Debug\TerminsProeve.csproj.CoreCompileInputs.cache
 C:\Users\emiir\Documents\GitHub\TerminsProeve\TerminsProeve\TerminsProeve\obj\Debug\TerminsProeve.exe
 C:\Users\emiir\Documents\GitHub\TerminsProeve\TerminsProeve\TerminsProeve\obj\Debug\TerminsProeve.pdb
+C:\Users\blaab\Documents\GitHub\TerminsProeve\TerminsProeve\TerminsProeve\bin\Debug\TerminsProeve.exe.config
+C:\Users\blaab\Documents\GitHub\TerminsProeve\TerminsProeve\TerminsProeve\bin\Debug\TerminsProeve.exe
+C:\Users\blaab\Documents\GitHub\TerminsProeve\TerminsProeve\TerminsProeve\bin\Debug\TerminsProeve.pdb
+C:\Users\blaab\Documents\GitHub\TerminsProeve\TerminsProeve\TerminsProeve\obj\Debug\TerminsProeve.csproj.AssemblyReference.cache
+C:\Users\blaab\Documents\GitHub\TerminsProeve\TerminsProeve\TerminsProeve\obj\Debug\TerminsProeve.Form1.resources
+C:\Users\blaab\Documents\GitHub\TerminsProeve\TerminsProeve\TerminsProeve\obj\Debug\TerminsProeve.Properties.Resources.resources
+C:\Users\blaab\Documents\GitHub\TerminsProeve\TerminsProeve\TerminsProeve\obj\Debug\TerminsProeve.csproj.GenerateResource.cache
+C:\Users\blaab\Documents\GitHub\TerminsProeve\TerminsProeve\TerminsProeve\obj\Debug\TerminsProeve.csproj.CoreCompileInputs.cache
+C:\Users\blaab\Documents\GitHub\TerminsProeve\TerminsProeve\TerminsProeve\obj\Debug\TerminsProeve.exe
+C:\Users\blaab\Documents\GitHub\TerminsProeve\TerminsProeve\TerminsProeve\obj\Debug\TerminsProeve.pdb
