@@ -27,7 +27,7 @@ namespace TerminsProeve
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(story == 0)
+            if (story == 0)
             {
                 //Insert Option One Story here
                 story += 1;
@@ -35,6 +35,32 @@ namespace TerminsProeve
                 //button2.Text = "Insert Next option";
                 //button3.Text = "Insert Next option";
             }
+            if (story == 1)
+            {
+                //Insert Option 1,1 story here
+                story += 10;
+                //button1.Text = "Insert Next option";
+                //button2.Text = "Insert Next option";
+                //button3.Text = "Insert Next option";
+            }
+            if (story == 2)
+            {
+                //Insert Option 2,1 story here
+                story += 10;
+                //button1.Text = "Insert Next option";
+                //button2.Text = "Insert Next option";
+                //button3.Text = "Insert Next option";
+            }
+            if (story == 3)
+            {
+                //Insert Option 3,1 story here
+                story += 10;
+                //button1.Text = "Insert Next option";
+                //button2.Text = "Insert Next option";
+                //button3.Text = "Insert Next option";
+            }
+
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -47,7 +73,32 @@ namespace TerminsProeve
                 //button2.Text = "Insert Next option";
                 //button3.Text = "Insert Next option";
             }
+            if (story == 1)
+            {
+                //Insert Option 1,2 story here
+                story += 20;
+                //button1.Text = "Insert Next option";
+                //button2.Text = "Insert Next option";
+                //button3.Text = "Insert Next option";
+            }
+            if (story == 2)
+            {
+                //Insert Option 2,2 story here
+                story += 20;
+                //button1.Text = "Insert Next option";
+                //button2.Text = "Insert Next option";
+                //button3.Text = "Insert Next option";
+            }
+            if (story == 3)
+            {
+                //Insert Option 3,2 story here
+                story += 20;
+                //button1.Text = "Insert Next option";
+                //button2.Text = "Insert Next option";
+                //button3.Text = "Insert Next option";
+            }
         }
+
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -55,6 +106,30 @@ namespace TerminsProeve
             {
                 //Insert Option Three Story here
                 story += 3;
+                //button1.Text = "Insert Next option";
+                //button2.Text = "Insert Next option";
+                //button3.Text = "Insert Next option";
+            }
+            if (story == 1)
+            {
+                //Insert Option 1,3 story here
+                story += 30;
+                //button1.Text = "Insert Next option";
+                //button2.Text = "Insert Next option";
+                //button3.Text = "Insert Next option";
+            }
+            if (story == 2)
+            {
+                //Insert Option 2,3 story here
+                story += 30;
+                //button1.Text = "Insert Next option";
+                //button2.Text = "Insert Next option";
+                //button3.Text = "Insert Next option";
+            }
+            if (story == 3)
+            {
+                //Insert Option 3,3 story here
+                story += 30;
                 //button1.Text = "Insert Next option";
                 //button2.Text = "Insert Next option";
                 //button3.Text = "Insert Next option";
