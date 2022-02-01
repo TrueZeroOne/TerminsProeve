@@ -13,13 +13,15 @@ namespace TerminsProeve
 {
     public partial class Form1 : Form
     {
+        string[] textArray;
         int story = 0;
         public Form1()
         {
             InitializeComponent();
-            string path = @"C:\Users\blaab\Documents\GitHub\TerminsProeve\TerminsProeve\TerminsProeve\Properties\StoryFile.txt";
+            string path = @"StoryFile.txt";
             string text = File.ReadAllText(path);
-            string[]textArray = text.Split('|');
+            textArray = text.Split('|');
+            textBox1.Text = textArray[0];
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -37,41 +39,41 @@ namespace TerminsProeve
         {
             if (story == 0)
             {
-                //Insert Option One Story here
+                textBox1.Text = textArray[1];
                 story += 1;
-                //button1.Text = "Insert Next option";
-                //button2.Text = "Insert Next option";
-                //button3.Text = "Insert Next option";
+                button1.Text = "Heaven";
+                button2.Text = "Home";
+                button3.Text = "Hell";
             }
-            if (story == 1)
+            else if (story == 1)
             {
-                //Insert Ending 1,1 here
+                textBox1.Text = textArray[2];
                 button1.Visible = false;
                 button2.Visible = false;
                 button3.Visible = false;
-                button4.Location = button2.Location;
-                button4.Size = button2.Size;
-                button4.Font = button2.Font;
+                button5.Location = button2.Location;
+                button5.Size = button2.Size;
+                button5.Font = button2.Font;
             }
-            if (story == 2)
+            else if (story == 2)
             {
-                //Insert Ending 2,1 here
+                textBox1.Text = textArray[6];
                 button1.Visible = false;
                 button2.Visible = false;
                 button3.Visible = false;
-                button4.Location = button2.Location;
-                button4.Size = button2.Size;
-                button4.Font = button2.Font;
+                button5.Location = button2.Location;
+                button5.Size = button2.Size;
+                button5.Font = button2.Font;
             }
-            if (story == 3)
+            else if (story == 3)
             {
-                //Insert Ending 3,1  here
+                textBox1.Text = textArray[10];
                 button1.Visible = false;
                 button2.Visible = false;
                 button3.Visible = false;
-                button4.Location = button2.Location;
-                button4.Size = button2.Size;
-                button4.Font = button2.Font;
+                button5.Location = button2.Location;
+                button5.Size = button2.Size;
+                button5.Font = button2.Font;
             }
         }
 
@@ -79,41 +81,41 @@ namespace TerminsProeve
         {
             if (story == 0)
             {
-                //Insert Option Two Story here
+                textBox1.Text = textArray[5];
                 story += 2;
-                //button1.Text = "Insert Next option";
-                //button2.Text = "Insert Next option";
-                //button3.Text = "Insert Next option";
+                button1.Text = "Don't give water";
+                button2.Text = "Sparkeling water";
+                button3.Text = "Normal water";
             }
-            if (story == 1)
+            else if (story == 1)
             {
-                //Insert Ending 1,2 here
+                textBox1.Text = textArray[3];
                 button1.Visible = false;
                 button2.Visible = false;
                 button3.Visible = false;
-                button4.Location = button2.Location;
-                button4.Size = button2.Size;
-                button4.Font = button2.Font;
+                button5.Location = button2.Location;
+                button5.Size = button2.Size;
+                button5.Font = button2.Font;
             }
-            if (story == 2)
+            else if (story == 2)
             {
-                //Insert Ending 2,2 here
+                textBox1.Text = textArray[7];
                 button1.Visible = false;
                 button2.Visible = false;
                 button3.Visible = false;
-                button4.Location = button2.Location;
-                button4.Size = button2.Size;
-                button4.Font = button2.Font;
+                button5.Location = button2.Location;
+                button5.Size = button2.Size;
+                button5.Font = button2.Font;
             }
-            if (story == 3)
+            else if (story == 3)
             {
-                //Insert Ending 3,2  here
+                textBox1.Text = textArray[11];
                 button1.Visible = false;
                 button2.Visible = false;
                 button3.Visible = false;
-                button4.Location = button2.Location;
-                button4.Size = button2.Size;
-                button4.Font = button2.Font;
+                button5.Location = button2.Location;
+                button5.Size = button2.Size;
+                button5.Font = button2.Font;
             }
         }
 
@@ -122,41 +124,41 @@ namespace TerminsProeve
         {
             if (story == 0)
             {
-                //Insert Option Three Story here
+                textBox1.Text = textArray[9];
                 story += 3;
                 button1.Text = "Climb the mountain";
                 button2.Text = "Jump over it";
                 button3.Text = "Go around it";
             }
-            if (story == 1)
+            else if (story == 1)
             {
-                //Insert Ending 1,3 here
+                textBox1.Text = textArray[4];
                 button1.Visible = false;
                 button2.Visible = false;
                 button3.Visible = false;
-                button4.Location = button2.Location;
-                button4.Size = button2.Size;
-                button4.Font = button2.Font;
+                button5.Location = button2.Location;
+                button5.Size = button2.Size;
+                button5.Font = button2.Font;
             }
-            if (story == 2)
+            else if (story == 2)
             {
-                //Insert Ending 2,3 here
+                textBox1.Text = textArray[8];
                 button1.Visible = false;
                 button2.Visible = false;
                 button3.Visible = false;
-                button4.Location = button2.Location;
-                button4.Size = button2.Size;
-                button4.Font = button2.Font;
+                button5.Location = button2.Location;
+                button5.Size = button2.Size;
+                button5.Font = button2.Font;
             }
-            if (story == 3)
+            else if (story == 3)
             {
-                //Insert Ending 3,3  here
+                textBox1.Text = textArray[12];
                 button1.Visible = false;
                 button2.Visible = false;
                 button3.Visible = false;
-                button4.Location = button2.Location;
-                button4.Size = button2.Size;
-                button4.Font = button2.Font;
+                button5.Location = button2.Location;
+                button5.Size = button2.Size;
+                button5.Font = button2.Font;
             }
         }
 

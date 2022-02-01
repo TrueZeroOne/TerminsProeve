@@ -55,7 +55,7 @@ namespace TerminsProeve
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(122, 299);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(166, 108);
+            this.button1.Size = new System.Drawing.Size(184, 108);
             this.button1.TabIndex = 1;
             this.button1.Text = "Out of forrest";
             this.button1.UseVisualStyleBackColor = true;
@@ -64,23 +64,24 @@ namespace TerminsProeve
             // 
             // textBox1
             // 
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Enabled = false;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(122, 67);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(545, 200);
             this.textBox1.TabIndex = 4;
-            this.textBox1.Text = "Hello";
             this.textBox1.UseWaitCursor = true;
             this.textBox1.Visible = false;
-            this.textBox1.WordWrap = false;
             // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(294, 299);
+            this.button2.Location = new System.Drawing.Point(312, 299);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(199, 108);
+            this.button2.Size = new System.Drawing.Size(181, 108);
             this.button2.TabIndex = 5;
             this.button2.Text = "Deep forrest";
             this.button2.UseVisualStyleBackColor = true;
