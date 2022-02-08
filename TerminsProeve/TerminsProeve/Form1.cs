@@ -126,9 +126,9 @@ namespace TerminsProeve
             {
                 textBox1.Text = textArray[9];
                 story += 3;
-                button1.Text = "Jump over it";
-                button3.Text = "Climb the mountain";
-                button2.Text = "Go around it";
+                button1.Text = "Climb the mountain";
+                button2.Text = "Jump over it";
+                button3.Text = "Go around it";
             }
             else if (story == 1)
             {
