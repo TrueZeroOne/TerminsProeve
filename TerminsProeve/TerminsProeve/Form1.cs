@@ -58,36 +58,15 @@ namespace TerminsProeve
             }
             else if (story == 1)
             {
-                // Sets the textbox content to be the story if you choose option 1
-                textBox1.Text = textArray[2];
-                // Hides the buttons
-                button1.Visible = false;
-                button2.Visible = false;
-                button3.Visible = false;
-                // Moves and resizes the quit button to the middle button
-                button5.Location = button2.Location;
-                button5.Size = button2.Size;
-                button5.Font = button2.Font;
+                End(2);
             }
             else if (story == 2)
             {
-                textBox1.Text = textArray[6];
-                button1.Visible = false;
-                button2.Visible = false;
-                button3.Visible = false;
-                button5.Location = button2.Location;
-                button5.Size = button2.Size;
-                button5.Font = button2.Font;
+                End(6);
             }
             else if (story == 3)
             {
-                textBox1.Text = textArray[10];
-                button1.Visible = false;
-                button2.Visible = false;
-                button3.Visible = false;
-                button5.Location = button2.Location;
-                button5.Size = button2.Size;
-                button5.Font = button2.Font;
+                End(10);
             }
         }
 
@@ -103,33 +82,15 @@ namespace TerminsProeve
             }
             else if (story == 1)
             {
-                textBox1.Text = textArray[3];
-                button1.Visible = false;
-                button2.Visible = false;
-                button3.Visible = false;
-                button5.Location = button2.Location;
-                button5.Size = button2.Size;
-                button5.Font = button2.Font;
+                End(3);
             }
             else if (story == 2)
             {
-                textBox1.Text = textArray[7];
-                button1.Visible = false;
-                button2.Visible = false;
-                button3.Visible = false;
-                button5.Location = button2.Location;
-                button5.Size = button2.Size;
-                button5.Font = button2.Font;
+                End(7);
             }
             else if (story == 3)
             {
-                textBox1.Text = textArray[11];
-                button1.Visible = false;
-                button2.Visible = false;
-                button3.Visible = false;
-                button5.Location = button2.Location;
-                button5.Size = button2.Size;
-                button5.Font = button2.Font;
+                End(11);
             }
         }
 
@@ -146,33 +107,15 @@ namespace TerminsProeve
             }
             else if (story == 1)
             {
-                textBox1.Text = textArray[4];
-                button1.Visible = false;
-                button2.Visible = false;
-                button3.Visible = false;
-                button5.Location = button2.Location;
-                button5.Size = button2.Size;
-                button5.Font = button2.Font;
+                End(4);
             }
             else if (story == 2)
             {
-                textBox1.Text = textArray[8];
-                button1.Visible = false;
-                button2.Visible = false;
-                button3.Visible = false;
-                button5.Location = button2.Location;
-                button5.Size = button2.Size;
-                button5.Font = button2.Font;
+                End(8);
             }
             else if (story == 3)
             {
-                textBox1.Text = textArray[12];
-                button1.Visible = false;
-                button2.Visible = false;
-                button3.Visible = false;
-                button5.Location = button2.Location;
-                button5.Size = button2.Size;
-                button5.Font = button2.Font;
+                End(12);
             }
         }
 
@@ -190,6 +133,19 @@ namespace TerminsProeve
         {
             Close();
             //Muligvis pop up om spiller er sikker
+        }
+        private void End(int x)
+        {
+            // Sets the textbox content to be the story if you choose option 1
+            textBox1.Text = textArray[x];
+            // Hides the buttons
+            button1.Visible = false;
+            button2.Visible = false;
+            button3.Visible = false;
+            // Moves and resizes the quit button to the middle button
+            button5.Location = button2.Location;
+            button5.Size = button2.Size;
+            button5.Font = button2.Font;
         }
     }
 }
